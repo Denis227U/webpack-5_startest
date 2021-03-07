@@ -1,0 +1,35 @@
+@use "variables";
+@use "global";
+@use "hero";
+
+body {
+    background-color: #ccc;
+}
+
+h1 {
+    color: royalblue;
+    font-size: 40px;
+    display: flex;
+    transform: rotate(-40deg);
+}
+
+h2 {
+    color: seagreen;
+}
+
+.pic {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    img {
+        width: 100px;
+        display: block;
+    }
+}
+
+.pic2 {
+    width: 300px;
+    height: 150px;
+    background: url('../images/swc-sword.png');
+    background-size: cover;
+}
