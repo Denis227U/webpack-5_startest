@@ -1,0 +1,41 @@
+{
+    // "extends": ["eslint:recommended", "airbnb-base", "prettier"],
+    // "extends": ["eslint:recommended", "airbnb-base"],
+    "extends": ["airbnb-base"],
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "rules": {
+        "no-plusplus": "off",
+        "no-tabs": "off",
+        "no-alert": "off",
+        // "prefer-destructuring": [
+        //     "warn", { "object": true, "array": true }, 
+        //     { "enforceForRenamedProperties": true }
+        // ],
+        // "prefer-destructuring": ["warn", {
+        //     "VariableDeclarator": {
+        //       "array": true,
+        //       "object": true
+        //     },
+        //     "AssignmentExpression": {
+        //       "array": true,
+        //       "object": true
+        //     }
+        // }, {
+        //     "enforceForRenamedProperties": true
+        // }],
+        "prefer-destructuring": "off",
+        // "space-infix-ops": ["error", { "int32Hint": false }],
+        "prefer-const": "error",
+        "no-unused-vars": "warn",
+        // "no-unused-vars": "error",
+        // "space-in-parens": ["error", "always"],
+        "no-multiple-empty-lines": [2, {"max": 2, "maxEOF": 1}],
+        "max-len":"off",
+        // "indent": ["off", "tab"]
+        "indent": ["off"]
+    }
+}
