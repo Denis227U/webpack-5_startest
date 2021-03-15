@@ -29,15 +29,15 @@ const x = a + 200;
 
 foo(x);
 
-// const testObj = {
-//   one: "odin",
-//   two: "dva",
-//   three: "tri",
-// };
+const testObj = {
+  one: 'odin',
+  two: 'dva',
+  three: 'tri',
+};
 
-// for (const key of testObj) {
-//   console.log(`${key}:${testObj[key]}`); // original
-// }
+for (const key of testObj) {
+  console.log(`${key}:${testObj[key]}`); // original
+}
 
 // fwefwef wef wefwefwefwefwefwef wefwefwefwefwefwef wefwefwefwefwef wefwefewfefwefwefwefwefwefwefwefwefwefwefwefwefwefewfwefwefwfwefwefwfwfwfwef
 
@@ -56,5 +56,12 @@ a5++;
 // eslint-disable-next-line no-console
 console.log(a5);
 
-
 const arr2 = [[], {}, (3, 4)];
+
+const pf = {
+  a: 1,
+  b: 2,
+};
+
+arr2.push(name, el0, cc, pf);
+console.log('arr2: ', arr2);
